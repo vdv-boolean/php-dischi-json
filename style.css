@@ -8,5 +8,13 @@ General Settings
 *::before {
     margin: 0;
     padding: 0;
-     box-sizing: border-box;
+    box-sizing: border-box;
 }
+
+/* Color Palette */
+:root{
+    --main-bg: #1C2833;
+    --header-bg: #09141C;
+    --card-bg: #131E29;
+}
+
