@@ -25,7 +25,7 @@
         <main>
             <div class="container">
                 <div class="cards" id="app">
-                    <div
+                    <button
                         class="card"
                         v-for="disco in discography"
                         :key="disco"
@@ -44,7 +44,7 @@
                         <span class="album-year">
                             {{ disco.albumYear }}
                         </span>
-                    </div>
+                    </button>
                 </div>
             </div>
 
