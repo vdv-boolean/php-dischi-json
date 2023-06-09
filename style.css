@@ -55,7 +55,7 @@ header {
 }
 
 nav {
-    width: 90vw;
+    width: 85vw;
     margin: auto;
     height: 100%;
     display: flex;
@@ -76,7 +76,7 @@ main {
 }
 
 .container {
-    width: 80vw;
+    width: 70vw;
     margin: auto;
     padding: 4rem 0 4rem;
 }
