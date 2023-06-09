@@ -60,3 +60,8 @@ main {
     background-color: var(--card-bg);
     border-radius: 10px;
 }
+
+img {
+    height: 60%;
+    object-fit: contain;
+}
