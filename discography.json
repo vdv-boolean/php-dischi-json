@@ -1,3 +1,8 @@
-{
-    "message": "Questo messaggio viene da .json"
-}
+[
+    {
+        "bandName": "Bon Jovi",
+        "albumName": "New Jersey",
+        "albumYear": "1988",
+        "albumCover": "da inserire"
+    }
+]
