@@ -23,7 +23,7 @@
                         v-for="disco in discography"
                         :key="disco"
                     >
-                        <span>{{ disco.albumCover }}</span>
+                        <img :src="disco.albumCover" :alt="disco.albumCover">
                         <span>{{ disco.albumName }}</span>
                         <span>{{ disco.bandName }}</span>
                         <span>{{ disco.albumYear }}</span>
