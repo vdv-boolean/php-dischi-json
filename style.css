@@ -18,6 +18,28 @@ General Settings
     --card-bg: #131E29;
 }
 
+/* Font Style */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+/* Text Style */
+.album-name {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.band-name {
+    font-size: 0.75rem;
+    font-weight: lighter;
+}
+
+.album-year {
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
 /************************************************
 Body
 ************************************************/
@@ -56,7 +78,6 @@ main {
     display: flex;
     flex-direction: column;
     flex: 1 0 calc(33% - 3rem); 
-    color: white;
     background-color: var(--card-bg);
     border-radius: 10px;
 }
