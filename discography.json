@@ -4,5 +4,35 @@
         "albumName": "New Jersey",
         "albumYear": "1988",
         "albumCover": "da inserire"
+    },
+    {
+        "bandName": "Queen",
+        "albumName": "live at Wembley 86",
+        "albumYear": "1992",
+        "albumCover": "da inserire"
+    },
+    {
+        "bandName": "Sting",
+        "albumName": "Ten's Summoner's Tales",
+        "albumYear": "1993",
+        "albumCover": "da inserire"
+    },
+    {
+        "bandName": "Steve Gadd band",
+        "albumName": "Steve Gadd band",
+        "albumYear": "2018",
+        "albumCover": "da inserire"
+    },
+    {
+        "bandName": "Iron Maiden",
+        "albumName": "Brave New World",
+        "albumYear": "2000",
+        "albumCover": "da inserire"
+    },
+    {
+        "bandName": "Eric Clapton",
+        "albumName": "One More Car, One More Rider",
+        "albumYear": "2002",
+        "albumCover": "da inserire"
     }
 ]
