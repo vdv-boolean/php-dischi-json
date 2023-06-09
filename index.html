@@ -26,7 +26,8 @@
             <div class="container">
                 <div class="cards" id="app">
                     <button
-                        class="card"
+                    @click="showModal(disco)"
+                    class="card"
                         v-for="disco in discography"
                         :key="disco"
                     >
