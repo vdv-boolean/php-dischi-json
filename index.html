@@ -13,8 +13,9 @@
     <body>
 
         <header>
-            f
+            <!-- Add nav and logo-->
         </header>
+
         <main>
             <div class="container">
                 <div class="cards" id="app">
@@ -24,12 +25,20 @@
                         :key="disco"
                     >
                         <img :src="disco.albumCover" :alt="disco.albumCover">
-                        <span>{{ disco.albumName }}</span>
-                        <span>{{ disco.bandName }}</span>
-                        <span>{{ disco.albumYear }}</span>
+                        <span class="album-name">
+                            {{ disco.albumName }}
+                        </span class="band-name">
+                        <span>
+                            {{ disco.bandName }}
+                        </span>
+                        <span class="album-year">
+                            {{ disco.albumYear }}
+                        </span>
                     </div>
                 </div>
-            </div>  
+            </div>
+
         </main>
+
     </body>
 </html>
