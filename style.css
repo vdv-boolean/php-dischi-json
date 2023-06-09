@@ -18,3 +18,45 @@ General Settings
     --card-bg: #131E29;
 }
 
+/************************************************
+Body
+************************************************/
+
+/***********************
+Header
+***********************/
+header {
+    height: 100px;
+    width: 100%;
+    background-color: var(--header-bg);
+}
+
+/***********************
+Main
+***********************/
+main {
+    height: 100%;
+    background-color: var(--main-bg);
+}
+
+.container {
+    width: 80vw;
+    margin: auto;
+    padding: 4rem 0 4rem;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.card {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 calc(33% - 3rem); 
+    color: white;
+    background-color: var(--card-bg);
+    border-radius: 10px;
+}
