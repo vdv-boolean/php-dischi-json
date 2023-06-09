@@ -13,7 +13,13 @@
     <body>
 
         <header>
-            <!-- Add nav and logo-->
+            <nav>
+                <img 
+                    class="logo"
+                    src="img/SpotifyLogo.png"
+                    alt="Spotify-logo"
+                >
+            </nav>
         </header>
 
         <main>
@@ -24,7 +30,11 @@
                         v-for="disco in discography"
                         :key="disco"
                     >
-                        <img :src="disco.albumCover" :alt="disco.albumCover">
+                        <img 
+                            class="artwork"
+                            :src="disco.albumCover"
+                            :alt="disco.albumCover"
+                        >
                         <span class="album-name">
                             {{ disco.albumName }}
                         </span class="band-name">
