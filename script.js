@@ -3,16 +3,16 @@ const { createApp } = Vue;
 createApp({
   data() {
     return {
-      message: '',
+      discography: [],
     };
   },
   methods: {
-    requestMessage() {
+    requestDiscography() {
         axios.get('http://localhost:8888/php-dischi-json/discography.php')
-            .then(response => this.message = response.data);
+            .then(response => this.discography = response.data);
     },
 },
 created() {
-    this.requestMessage();
+    this.requestDiscography();
 }
 }).mount('#app')
