@@ -5,12 +5,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Spotify</title>
-        <script src="https://unpkg.com/vue@3/dist/vue.global.js" defer></script>
-	    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js" defer></script>
+        <script defer src="https://unpkg.com/vue@3/dist/vue.global.js" ></script>
+	    <script defer src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script defer src="script.js"></script>
     </head>
     <body>
-        <div class="card">
-            <span>Questa è una card</span>
+        <div class="card" id="app">
+            <span>{{ message }}</span>
         </div>
     </body>
 </html>
