@@ -54,6 +54,19 @@ header {
     background-color: var(--header-bg);
 }
 
+nav {
+    width: 90vw;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo {
+    height: 80%;
+}
+
 /***********************
 Main
 ***********************/
@@ -87,7 +100,7 @@ main {
     cursor: pointer;
 }
 
-img {
+.artwork {
     height: 60%;
     object-fit: contain;
 }
