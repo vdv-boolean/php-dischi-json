@@ -21,7 +21,6 @@ General Settings
 /* Font Style */
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
     text-align: center;
 }
 
@@ -98,6 +97,8 @@ main {
     background-color: var(--card-bg);
     border-radius: 10px;
     cursor: pointer;
+    border: none;
+    color: white;
 }
 
 .artwork {
