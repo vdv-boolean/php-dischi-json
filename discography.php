@@ -1,5 +1,7 @@
 <?php
 
-$message = file_get_contents('discography.json');;
+header('Content-Type: application/json');
 
-echo $message;
+$discography = file_get_contents('discography.json');;
+
+echo $discography;
