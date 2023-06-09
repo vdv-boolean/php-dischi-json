@@ -3,36 +3,36 @@
         "bandName": "Bon Jovi",
         "albumName": "New Jersey",
         "albumYear": "1988",
-        "albumCover": "NewJersey.jpg"
+        "albumCover": "img/NewJersey.jpg"
     },
     {
         "bandName": "Queen",
         "albumName": "live at Wembley 86",
         "albumYear": "1992",
-        "albumCover": "LiveAtWimbley.jpg"
+        "albumCover": "img/LiveAtWimbley.jpg"
     },
     {
         "bandName": "Sting",
         "albumName": "Ten's Summoner's Tales",
         "albumYear": "1993",
-        "albumCover": "TenSummonersTales.jpg"
+        "albumCover": "img/TenSummonersTales.jpg"
     },
     {
         "bandName": "Steve Gadd band",
         "albumName": "Steve Gadd band",
         "albumYear": "2018",
-        "albumCover": "SteveGaddBand.jpg"
+        "albumCover": "img/SteveGaddBand.jpg"
     },
     {
         "bandName": "Iron Maiden",
         "albumName": "Brave New World",
         "albumYear": "2000",
-        "albumCover": "BrandNewWorld.jpg"
+        "albumCover": "img/BrandNewWorld.jpg"
     },
     {
         "bandName": "Eric Clapton",
         "albumName": "One More Car, One More Rider",
         "albumYear": "2002",
-        "albumCover": "OneMoreCarOneMoreRider.jpg"
+        "albumCover": "img/OneMoreCarOneMoreRider.jpg"
     }
 ]
