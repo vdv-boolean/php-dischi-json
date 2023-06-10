@@ -30,10 +30,22 @@
                         class="modal"
                         :class="{active: isActive}"
                     >
-                        TESTO DI PROVA
-                </button>
+                        <img 
+                            class="artwork"
+                            :src="highlighted.albumCover"
+                            :alt="highlighted.albumCover"
+                        >
+                        <span class="album-name">
+                            {{ highlighted.albumName }}
+                        </span class="band-name">
+                        <span>
+                            {{ highlighted.bandName }}
+                        </span>
+                        <span class="album-year">
+                            {{ highlighted.albumYear }}
+                    </button>
                     <button
-                    @click="toggleModal(disco)"
+                    @click="toggleAndPaste(disco)"
                     class="card"
                         v-for="disco in discography"
                         :key="disco"
