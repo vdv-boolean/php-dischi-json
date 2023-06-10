@@ -30,23 +30,26 @@
                         class="modal"
                         :class="{active: isActive}"
                     >
-                        <img 
+                        <div class="highlighted f-col">
+                            <img 
                             class="artwork"
                             :src="highlighted.albumCover"
                             :alt="highlighted.albumCover"
-                        >
-                        <span class="album-name">
-                            {{ highlighted.albumName }}
-                        </span class="band-name">
-                        <span>
-                            {{ highlighted.bandName }}
-                        </span>
-                        <span class="album-year">
-                            {{ highlighted.albumYear }}
+                            >
+                            <span class="album-name">
+                                {{ highlighted.albumName }}
+                            </span class="band-name">
+                            <span>
+                                {{ highlighted.bandName }}
+                            </span>
+                            <span class="album-year">
+                                {{ highlighted.albumYear }}
+                            </span>
+                        </div>
                     </button>
                     <button
                     @click="toggleAndPaste(disco)"
-                    class="card"
+                    class="card f-col"
                         v-for="disco in discography"
                         :key="disco"
                     >
