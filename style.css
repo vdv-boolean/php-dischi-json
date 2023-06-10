@@ -16,6 +16,7 @@ General Settings
     --main-bg: #1C2833;
     --header-bg: #09141C;
     --card-bg: #131E29;
+    --modal-bg: #131e29d2;
 }
 
 /* Font Style */
@@ -38,6 +39,10 @@ body {
 .album-year {
     font-size: 1rem;
     font-weight: bolder;
+}
+
+span {
+    color: white;
 }
 
 /************************************************
@@ -103,7 +108,6 @@ Cards
     border-radius: 10px;
     cursor: pointer;
     border: none;
-    color: white;
 }
 
 .artwork {
@@ -122,6 +126,7 @@ Modal
     top: 0;
     left: 0;
     display: none;
+    background-color: var(--modal-bg);
 }
 
 .active {
