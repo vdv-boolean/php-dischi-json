@@ -49,6 +49,17 @@ span {
 
 button {
     border: none;
+    cursor: pointer;
+}
+
+/* Flex rules */
+
+.f-col {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 calc(33% - 3rem);
+    align-items:center;
+    justify-content: space-evenly;
 }
 
 /************************************************
@@ -104,18 +115,12 @@ Cards
 
 .card {
     height: 400px;
-    display: flex;
-    flex-direction: column;
-    flex: 1 0 calc(33% - 3rem);
-    align-items:center;
-    justify-content: space-evenly;
     padding-inline: 1rem;
     background-color: var(--card-bg);
     border-radius: 10px;
-    cursor: pointer;
 }
 
-.artwork {
+.card .artwork {
     height: 60%;
     object-fit: contain;
 }
@@ -136,6 +141,13 @@ Modal
 
 .active {
     display: block;
+}
+
+.highlighted {
+    height: 60vh;
+}
+.highlighted .artwork {
+    height: 60%;
 }
 
 
