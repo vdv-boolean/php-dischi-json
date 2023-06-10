@@ -34,5 +34,23 @@
         "albumName": "One More Car, One More Rider",
         "albumYear": "2002",
         "albumCover": "img/OneMoreCarOneMoreRider.jpg"
+    },
+    {
+        "bandName": "Guns n' Roses",
+        "albumName": "Appetite for Destruction",
+        "albumYear": "1987",
+        "albumCover": "img/AppetiteForDestruction.jpg"
+    },
+    {
+        "bandName": "Gigi D'Alessio",
+        "albumName": "Quando la mia vita cambierà",
+        "albumYear": "2000",
+        "albumCover": "img/QuandoLaMiaVitaCambierà.jpg"
+    },
+    {
+        "bandName": "David Bowie",
+        "albumName": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
+        "albumYear": "1972",
+        "albumCover": "img/TheRiseAndTheFall.jpg"
     }
 ]
