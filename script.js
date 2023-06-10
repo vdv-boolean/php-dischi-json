@@ -4,6 +4,7 @@ createApp({
   data() {
     return {
       discography: [],
+      isActive: false,
     };
   },
   methods: {
@@ -11,9 +12,9 @@ createApp({
         axios.get('http://localhost:8888/php-dischi-json/discography.php')
             .then(response => this.discography = response.data);
     },
-    showModal(disco) {
-      console.log(disco.albumYear + " " + disco.albumName);
-    }
+    toggleModal(disco) {
+      this.isActive = !this.isActive;
+    },
 },
 created() {
     this.requestDiscography();
