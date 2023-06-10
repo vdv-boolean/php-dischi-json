@@ -81,6 +81,10 @@ main {
     padding: 2rem 0 2rem;
 }
 
+/*********
+Cards
+*********/
+
 .cards {
     display: flex;
     flex-wrap: wrap;
@@ -106,3 +110,22 @@ main {
     height: 60%;
     object-fit: contain;
 }
+
+/*********
+Modal
+*********/
+
+.modal {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+
