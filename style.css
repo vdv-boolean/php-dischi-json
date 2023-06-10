@@ -45,6 +45,12 @@ span {
     color: white;
 }
 
+/* Buttons */
+
+button {
+    border: none;
+}
+
 /************************************************
 Body
 ************************************************/
@@ -107,7 +113,6 @@ Cards
     background-color: var(--card-bg);
     border-radius: 10px;
     cursor: pointer;
-    border: none;
 }
 
 .artwork {
