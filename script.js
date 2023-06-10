@@ -5,6 +5,7 @@ createApp({
     return {
       discography: [],
       isActive: false,
+      highlighted: [],
     };
   },
   methods: {
@@ -12,9 +13,14 @@ createApp({
         axios.get('http://localhost:8888/php-dischi-json/discography.php')
             .then(response => this.discography = response.data);
     },
-    toggleModal(disco) {
+    toggleModal() {
       this.isActive = !this.isActive;
     },
+    toggleAndPaste(disco) {
+      this.highlighted = disco;
+      this.toggleModal();
+    },
+    
 },
 created() {
     this.requestDiscography();
